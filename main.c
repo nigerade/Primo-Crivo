@@ -1,9 +1,10 @@
+// BIBLIOTECAS
 #include <stdio.h>
 #include <math.h>
 
 int main()
 
-{   int N;
+{   int N; // Declara Variável 
 
     printf("Até que número eu vou achar os primos? ");
     scanf("%d", &N);
@@ -11,15 +12,16 @@ int main()
     int vet[N+1];
     int i, j, limite;
 
-    for(i=2; i<=N; i++)
+    for(i=2; i<=N; i++) // Loop
     {  
         vet[i] = 1; // 1 representa primo
-    }
+    } // Fim do Loop
+    
 
     limite = (int) sqrt(N);
     i=2;
 
-    while(i <= limite)
+    while(i <= limite) 
     {   
         j=2;
 
@@ -39,8 +41,8 @@ int main()
     for(i=2; i<=N; i++)
     {  
          if(vet[i]==1)
-            printf("%d, ", i);
+            printf("%d, ", i); // Retorna os Primos
     }
-    
+
     return 0;
 }
