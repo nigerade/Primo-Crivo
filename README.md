@@ -28,6 +28,6 @@ Projeto em Linguagem C onde o usuário digita até que número o programa deve a
 Mais Infomações sobre o Teorema dos Números Primos de Eratóstenes: https://pt.wikipedia.org/wiki/Crivo_de_Erat%C3%B3stenes
 
 
-Você pode ver o Projeto e testar neste link: [Batalha Naval - C](https://onlinegdb.com/HaS9c9JHLF)
+Você pode ver o Projeto e testar neste link: [Números Primos de Crivo - C](https://onlinegdb.com/HaS9c9JHLF)
 
 --- 
